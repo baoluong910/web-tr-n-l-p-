@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lingeries turn your on</title>
+</head>
+<body>
+
+{% for item in items %}
+
+<img src="{{ item.image }}">
+
+<p>{{ item.title  }}</p>
+<p>{{ item.price }}</p>
+
+{% endfor %}
+
+</body>
+</html>
+
